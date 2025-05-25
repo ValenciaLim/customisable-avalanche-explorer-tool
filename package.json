@@ -1,0 +1,21 @@
+{
+  "name": "my-explorer-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "ejs": "^3.1.10",
+    "execa": "^9.5.3",
+    "fs-extra": "^11.3.0"
+  },
+  "bin": {
+    "my-explorer-cli": "./bin/index.js"
+  }
+}
